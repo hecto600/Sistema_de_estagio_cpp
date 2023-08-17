@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{e15a0cb1-c041-4f79-a3db-cee994aa6cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{cae1face-eacd-4707-8f59-1ae26aa8814e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Repositories">
+      <UniqueIdentifier>{399626f6-75fa-4ee0-9b4e-d3b81e8fa2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{08bb1f85-db33-4bb9-a19a-85fb92e39835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{2a553b48-8ff7-404f-bda1-a1827cf5724f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Users">
+      <UniqueIdentifier>{63f317a5-c69f-4776-bccf-91f0c0c3a121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Users">
+      <UniqueIdentifier>{90be59ff-1fa0-4acc-b6a0-4d957c0d71c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Repositories">
+      <UniqueIdentifier>{cbbb1b2d-0f94-4740-a633-913f54edf91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Others">
+      <UniqueIdentifier>{9ae26f4b-3a70-4f56-9f2a-f14f8aa0e2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enums">
+      <UniqueIdentifier>{74cec6eb-d3fd-4b99-bf12-edbb4b4c31a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Exceptions">
+      <UniqueIdentifier>{938531a1-4945-4c45-9866-6d6e6ceacca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Exceptions">
+      <UniqueIdentifier>{4529cffe-a10a-4e13-9d09-402e87d47a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Others">
+      <UniqueIdentifier>{a8e73bdd-ddc0-4837-b002-2b2acff9dc72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainee.cpp">
+      <Filter>Source Files\Model\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidateFunctions.cpp">
+      <Filter>Source Files\Model\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo.cpp">
+      <Filter>Source Files\Model\Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="NotValidInfo.cpp">
+      <Filter>Source Files\Model\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainee.h">
+      <Filter>Header Files\Model\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo.h">
+      <Filter>Header Files\Model\Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="NotValidInfo.h">
+      <Filter>Header Files\Model\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidateFunctions.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
